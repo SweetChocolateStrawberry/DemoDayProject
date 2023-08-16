@@ -1,0 +1,44 @@
+body {
+    background-color: #46494C;
+}
+
+.overlayText {
+    
+    background-color: #1e3b7c;
+    opacity: 70%;
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top: 22%;
+    left: 38%;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+  }
+  
+  #firstText {
+    align-self: center;
+  }
+  .topnav {
+    display:flex;
+    margin-left: 110px;
+    font-size: 17px;
+  }
+  .topnav1 {
+    margin-top: 50px;
+    display:flex;
+    margin-left:110px;
+    font-size: 17px;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 50px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
