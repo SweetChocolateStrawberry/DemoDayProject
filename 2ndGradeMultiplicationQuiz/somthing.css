@@ -5,14 +5,13 @@
     box-sizing: border-box;   
    }
 
-   
    .wrapper{
        display: flex;
        justify-content: center;
        align-items: center;
        width: 100vw;
        height: 100vh;
-   }
+    }
    
    .quiz{
        display: grid;
@@ -87,13 +86,14 @@
    }
    
    .award_icon{
-       display: block;
+    display: inline-block;
+    vertical-align: middle; /* aligns vertically with text */
        font-size: 300px;
        color: #fff;
    }
    
    .username, .userpoints{
-       color: #fff;
+       color: #000000;
        text-align: center;
        margin-top: 15px;
    }
@@ -101,10 +101,18 @@
    .border{
        height: 500px;
        width: 500px;
-       display: block;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
        justify-content: center;
        margin: 0px 400px;
        border-radius: 10px;
        top: 100px;
        border-color: transparent;
    }
+
+   @media (max-width: 400px) {
+    .wrapper {
+        transform: scale(0.85);
+    }
+}

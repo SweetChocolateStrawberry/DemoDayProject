@@ -4,51 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="lib/css/design_kindergarten.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html"><div id="home">Home</div></a>
-        <a href="class.html">
-            <div class="dropdown">
-            <button class="dropbtn">Class</button>
-            <div class="dropdown-content">
-                <div class="dropdown1">
-                <button class="dropbtn1"><a href="elementary_main.html"><div id="elementary">Elementary School</div></a></button>
-                <div class="dropdown-content1">
-                    <a href="kindergarten_main.html"><div id="kindergarten">Kindergarten</div></a>
-                    <a href="firstgrade_main.html"><div id="firstgrade">1st grade</div></a>
-                    <a href="secondgrade_main.html"><div id="secondgrade">2nd grade</div></a>
-                    <a href="thirdgrade_main.html"><div id="thirdgrade">3rd grade</div></a>
-                    <a href="fourthgrade_main.html"><div id="fourthgrade">4th grade</div></a>
-                    <a href="fifthgrade_main.html"><div id="fifthgrade">5th grade</div></a>
-                </div>
-                </div>
-                <div class="dropdown2">
-                <button class="dropbtn2"><a href="middle_main.index"><div id="middle">Middle School</div></a></button>
-                <div class="dropdown-content2">
-                    <a href="sixthgrade_main.html"><div id="sixthgrade">6th grade</div></a>
-                    <a href="seventhgrade_main.html"><div id="seventhgrade">7th grade</div></a>
-                    <a href="eighthgrade_main.html"><div id="eighthgrade">8th grade</div></a>
-                </div>
-                </div>
-                <div class="dropdown3">
-                <button class="dropbtn3"><a href="high_main.index"><div id="high">High School</div></a></button>
-                <div class="dropdown-content3">
-                    <a href="ninethgrade_main.html"><div id="ninethgrade">9th grade</div></a>
-                    <a href="tenthgrade_main.html"><div id="tenthgrade">10th grade</div></a>
-                    <a href="eleventhgrade_main.html"><div id="eleventhgrade">11th grade</div></a>
-                    <a href="twelfthgrade_main.html"><div id="twelfthgrade">12th grade</div></a>
-                </div>
-                </div>
-            </div>
-            </div>
-            </div>
+   <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-custom" style="background-color: #210B2C;">
+    <div class="container-fluid">
+      <!-- left aligned logo for smaller screens -->
+      <div class="navbar-brand d-inline-block ms-5 d-lg-none">
+        <a href="indexresponsive.html">
+          <img src="images/introduction_images/learning_new_logo.png" alt="Logo" width="240" height="80"
+            class="d-inline-block align-text-top">
         </a>
-        <a href="index.html"><img id="logo" src="images/introduction_images/learning_new_logo.png"></a>
-        </nav>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown ms-5">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Class
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Elementary School &raquo;
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="kindergarten_main.html">Kindergarten</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="firstgrade_main.html">1st grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="secondgrade_main.html">2nd grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="thirdgrade_main.html">3rd grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="fourthgrade_main.html">4th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="fifthgrade_main.html">5th grade</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Middle School &raquo;
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="sixthgrade_main.html">6th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="seventhgrade_main.html">7th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="eighthgrade_main.html">8th grade</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  High School &raquo;
+                </a>
+                <ul class="dropdown-menu dropdown-submenu">
+                  <li>
+                    <a class="dropdown-item" href="ninethgrade_main.html">9th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="tenthgrade_main.html">10th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="eleventhgrade_main.html">11th grade</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="twelfthgrade_main.html">12th grade</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- center align logo for larger screens -->
+        <div class="navbar-brand d-lg-flex justify-content-center mx-auto ps-5 d-none"> <!--center align logo-->
+          <a href="indexresponsive.html">
+            <img src="images/introduction_images/learning_new_logo.png" alt="Logo" width="240" height="80"
+              class="d-inline-block align-text-top">
+          </a>
+        </div>
+
+        <ul class="navbar-nav ml-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link" id="signup" href="signup.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="login" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
         <div class="Title">
             <h1>Welcome to Kindergarten !</h1>
         </div>
+
+        <!--Bootstrap JS Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+  </script>
         </body>
         </html>

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>2nd Math</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="navbar.css">
-    <link href="lib/css/2ndMath.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-      <!--Navbar-->
+  <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-custom" style="background-color: #210B2C;">
     <div class="container-fluid">
       <!-- left aligned logo for smaller screens -->
@@ -121,34 +123,84 @@
     </div>
   </nav>
 
-    <div class="Title">
-        <h1>Math Lessons</h1>
-    </div>
-    
-    
-    <div class="d-flex justify-content-center"> <!-- Use Bootstrap container class -->
-        <table>
-          <tbody>
-            <tr>
-              <td>Lesson 1</td>
-              <td class="td2">Fractions and Decimals</td>
-            </tr>
-            <tr>
-              <td>Lesson 2</td>
-              <td class="td2"><a class="link" href="multiplication.html">Multiplication</a></td>
-            </tr>
-            <tr>
-              <td>Lesson 3</td>
-              <td class="td2">Area of a Square</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+  <!--Heading-->
+  <div class="container title">
+    <h1>What is Learning New?</h1>
+  </div>
 
- <!--Bootstrap JS Link -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
- </script>
+  <!--Body-->
+  <div class="container first">
+    <div class="row">
+      <div class="col-md-6">
+        <p id="one">Education is an important part of life.<br> Being able to read, to do basic math,<br> and to
+          understand
+          how things work<br> with things such as physics and science</p>
+      </div>
+      <div class="col-md-6">
+        <img id="img_one" src="images/introduction_images/classroom.jfif" class="img-fluid" alt="Classroom Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="container second">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="img_two" src="images/introduction_images/learning-styles.png" class="img-fluid"
+          alt="Learning Styles Image">
+      </div>
+      <div class="col-md-6">
+        <p id="two">People also have different ways of learning,<br> whether that be easily understanding a subject<br>
+          and
+          just needing to memorize it,<br> needing a much more interactive experience,<br> or needing to be talked in a
+          more
+          mature way.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="container">
+    <div>
+      <p id="three">With our website we provide an education from Kindergarten all the way to the Senior year.<br>with
+        multiple different ways to learn </p>
+    </div>
+    <div>
+      <p id="four">Our programs go by the stages of school. Elementary, Middle, and High school<br>Elementary is a
+        starter, it's completely free and has no restrictions to anything we have in there.<br>What you're taught are
+        the
+        following:</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <img id="img_three" src="images/introduction_images/elementary_learning.png" class="img-fluid"
+        alt="elementary_learning Image">
+    </div>
+    <div>
+      <p id="fifth">Next is the middle school. This is what you are taught:</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <img id="img_four" src="images/introduction_images/middle_learning.png" class="img-fluid"
+        alt="middle_learning Image">
+      <p id="sixth">Lastly is highschool, and this is what you are taught:</p>
+    </div>
+    <div>
+      <img id="img_five" src="images/introduction_images/high_learning.png" class="img-fluid" alt="high_learning Image">
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center">  
+  <button id="button"><a href="class.html">View Our Classes!</a></button>
+</div>
+
+  <!--Bootstrap JS Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
