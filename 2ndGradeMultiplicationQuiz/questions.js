@@ -6,7 +6,7 @@ let questions = [
         options: [
             "2",
             "4",
-            "69",
+            "20",
             "22"
         ]   
     },
@@ -17,8 +17,8 @@ let questions = [
         options: [
           "15",
           "2345",
-          "76",
-          "56"
+          "56",
+          "76"
         ]
       },
       {
@@ -37,8 +37,8 @@ let questions = [
         question: "11 times 3?",
         answer: "33",
         options: [
-          "33",
           "31",
+          "33",
           "13",
           "14"
         ]
@@ -48,10 +48,10 @@ let questions = [
         question: "how to write 3 times 3 as addition?",
         answer: "3+3+3",
         options: [
-          "3+3+3",
           "3+3=3",
           "3 3 3 ",
-          "3+33"
+          "3+33",
+          "3+3+3"
         ]
       },
       {
@@ -81,8 +81,8 @@ let questions = [
         question: "12 times 4?",
         answer: "48",
         options: [
-          "48",
           "16",
+          "48",
           "412",
           "44"
         ]
@@ -100,9 +100,10 @@ let questions = [
       },
       {
         id: 10,
-        question: "what is 10+10+10 written as in multiplyication?",
+        question: "what is 10+10+10 written as in multiplication?",
         answer: "10 times 3",
         options: [
+          "3 times 3",
           "10 times 3",
           "10 times 20 ",
           "10 times 2"
