@@ -2,7 +2,7 @@ let questions = [
     {
         id: 1,
         question: "2 times 2?",
-        answer:"",
+        answer:"4",
         options: [
             "2",
             "4",
